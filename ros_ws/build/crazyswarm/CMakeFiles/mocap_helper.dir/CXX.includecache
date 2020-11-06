@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ottelab/crazyswarm/ros_ws/src/crazyswarm/src/mocap_helper.cpp
+/home/ottelab/swarm/ros_ws/src/crazyswarm/src/mocap_helper.cpp
 iostream
 -
 vector
@@ -24,7 +24,7 @@ libmotioncapture/qualisys.h
 libmotioncapture/vrpn.h
 -
 
-/home/ottelab/crazyswarm/ros_ws/src/externalDependencies/libmotioncapture/include/libmotioncapture/motioncapture.h
+/home/ottelab/swarm/ros_ws/src/externalDependencies/libmotioncapture/include/libmotioncapture/motioncapture.h
 cstddef
 -
 stdint.h
@@ -38,27 +38,27 @@ pcl/point_cloud.h
 pcl/point_types.h
 -
 
-/home/ottelab/crazyswarm/ros_ws/src/externalDependencies/libmotioncapture/include/libmotioncapture/optitrack.h
+/home/ottelab/swarm/ros_ws/src/externalDependencies/libmotioncapture/include/libmotioncapture/optitrack.h
 libmotioncapture/motioncapture.h
-/home/ottelab/crazyswarm/ros_ws/src/externalDependencies/libmotioncapture/include/libmotioncapture/libmotioncapture/motioncapture.h
+/home/ottelab/swarm/ros_ws/src/externalDependencies/libmotioncapture/include/libmotioncapture/libmotioncapture/motioncapture.h
 
-/home/ottelab/crazyswarm/ros_ws/src/externalDependencies/libmotioncapture/include/libmotioncapture/phasespace.h
+/home/ottelab/swarm/ros_ws/src/externalDependencies/libmotioncapture/include/libmotioncapture/phasespace.h
 libmotioncapture/motioncapture.h
-/home/ottelab/crazyswarm/ros_ws/src/externalDependencies/libmotioncapture/include/libmotioncapture/libmotioncapture/motioncapture.h
+/home/ottelab/swarm/ros_ws/src/externalDependencies/libmotioncapture/include/libmotioncapture/libmotioncapture/motioncapture.h
 map
 -
 
-/home/ottelab/crazyswarm/ros_ws/src/externalDependencies/libmotioncapture/include/libmotioncapture/qualisys.h
+/home/ottelab/swarm/ros_ws/src/externalDependencies/libmotioncapture/include/libmotioncapture/qualisys.h
 libmotioncapture/motioncapture.h
-/home/ottelab/crazyswarm/ros_ws/src/externalDependencies/libmotioncapture/include/libmotioncapture/libmotioncapture/motioncapture.h
+/home/ottelab/swarm/ros_ws/src/externalDependencies/libmotioncapture/include/libmotioncapture/libmotioncapture/motioncapture.h
 
-/home/ottelab/crazyswarm/ros_ws/src/externalDependencies/libmotioncapture/include/libmotioncapture/vicon.h
+/home/ottelab/swarm/ros_ws/src/externalDependencies/libmotioncapture/include/libmotioncapture/vicon.h
 libmotioncapture/motioncapture.h
-/home/ottelab/crazyswarm/ros_ws/src/externalDependencies/libmotioncapture/include/libmotioncapture/libmotioncapture/motioncapture.h
+/home/ottelab/swarm/ros_ws/src/externalDependencies/libmotioncapture/include/libmotioncapture/libmotioncapture/motioncapture.h
 
-/home/ottelab/crazyswarm/ros_ws/src/externalDependencies/libmotioncapture/include/libmotioncapture/vrpn.h
+/home/ottelab/swarm/ros_ws/src/externalDependencies/libmotioncapture/include/libmotioncapture/vrpn.h
 libmotioncapture/motioncapture.h
-/home/ottelab/crazyswarm/ros_ws/src/externalDependencies/libmotioncapture/include/libmotioncapture/libmotioncapture/motioncapture.h
+/home/ottelab/swarm/ros_ws/src/externalDependencies/libmotioncapture/include/libmotioncapture/libmotioncapture/motioncapture.h
 
 /opt/ros/kinetic/include/ros/advertise_options.h
 ros/forwards.h

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ottelab/crazyswarm/ros_ws/src
+CMAKE_SOURCE_DIR = /home/ottelab/swarm/ros_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ottelab/crazyswarm/ros_ws/build
+CMAKE_BINARY_DIR = /home/ottelab/swarm/ros_ws/build
 
 # Include any dependencies generated for this target.
 include externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk/CMakeFiles/RigidBodyStreaming.dir/depend.make
@@ -58,17 +58,17 @@ include externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_
 include externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk/CMakeFiles/RigidBodyStreaming.dir/flags.make
 
 externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk/CMakeFiles/RigidBodyStreaming.dir/RigidBodyStreaming/RigidBodyStreaming.cpp.o: externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk/CMakeFiles/RigidBodyStreaming.dir/flags.make
-externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk/CMakeFiles/RigidBodyStreaming.dir/RigidBodyStreaming/RigidBodyStreaming.cpp.o: /home/ottelab/crazyswarm/ros_ws/src/externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk/RigidBodyStreaming/RigidBodyStreaming.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ottelab/crazyswarm/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk/CMakeFiles/RigidBodyStreaming.dir/RigidBodyStreaming/RigidBodyStreaming.cpp.o"
-	cd /home/ottelab/crazyswarm/ros_ws/build/externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RigidBodyStreaming.dir/RigidBodyStreaming/RigidBodyStreaming.cpp.o -c /home/ottelab/crazyswarm/ros_ws/src/externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk/RigidBodyStreaming/RigidBodyStreaming.cpp
+externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk/CMakeFiles/RigidBodyStreaming.dir/RigidBodyStreaming/RigidBodyStreaming.cpp.o: /home/ottelab/swarm/ros_ws/src/externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk/RigidBodyStreaming/RigidBodyStreaming.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ottelab/swarm/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk/CMakeFiles/RigidBodyStreaming.dir/RigidBodyStreaming/RigidBodyStreaming.cpp.o"
+	cd /home/ottelab/swarm/ros_ws/build/externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RigidBodyStreaming.dir/RigidBodyStreaming/RigidBodyStreaming.cpp.o -c /home/ottelab/swarm/ros_ws/src/externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk/RigidBodyStreaming/RigidBodyStreaming.cpp
 
 externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk/CMakeFiles/RigidBodyStreaming.dir/RigidBodyStreaming/RigidBodyStreaming.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RigidBodyStreaming.dir/RigidBodyStreaming/RigidBodyStreaming.cpp.i"
-	cd /home/ottelab/crazyswarm/ros_ws/build/externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ottelab/crazyswarm/ros_ws/src/externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk/RigidBodyStreaming/RigidBodyStreaming.cpp > CMakeFiles/RigidBodyStreaming.dir/RigidBodyStreaming/RigidBodyStreaming.cpp.i
+	cd /home/ottelab/swarm/ros_ws/build/externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ottelab/swarm/ros_ws/src/externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk/RigidBodyStreaming/RigidBodyStreaming.cpp > CMakeFiles/RigidBodyStreaming.dir/RigidBodyStreaming/RigidBodyStreaming.cpp.i
 
 externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk/CMakeFiles/RigidBodyStreaming.dir/RigidBodyStreaming/RigidBodyStreaming.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RigidBodyStreaming.dir/RigidBodyStreaming/RigidBodyStreaming.cpp.s"
-	cd /home/ottelab/crazyswarm/ros_ws/build/externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ottelab/crazyswarm/ros_ws/src/externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk/RigidBodyStreaming/RigidBodyStreaming.cpp -o CMakeFiles/RigidBodyStreaming.dir/RigidBodyStreaming/RigidBodyStreaming.cpp.s
+	cd /home/ottelab/swarm/ros_ws/build/externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ottelab/swarm/ros_ws/src/externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk/RigidBodyStreaming/RigidBodyStreaming.cpp -o CMakeFiles/RigidBodyStreaming.dir/RigidBodyStreaming/RigidBodyStreaming.cpp.s
 
 externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk/CMakeFiles/RigidBodyStreaming.dir/RigidBodyStreaming/RigidBodyStreaming.cpp.o.requires:
 
@@ -88,15 +88,15 @@ RigidBodyStreaming_OBJECTS = \
 # External object files for target RigidBodyStreaming
 RigidBodyStreaming_EXTERNAL_OBJECTS =
 
-/home/ottelab/crazyswarm/ros_ws/devel/lib/libmotioncapture/RigidBodyStreaming: externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk/CMakeFiles/RigidBodyStreaming.dir/RigidBodyStreaming/RigidBodyStreaming.cpp.o
-/home/ottelab/crazyswarm/ros_ws/devel/lib/libmotioncapture/RigidBodyStreaming: externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk/CMakeFiles/RigidBodyStreaming.dir/build.make
-/home/ottelab/crazyswarm/ros_ws/devel/lib/libmotioncapture/RigidBodyStreaming: /home/ottelab/crazyswarm/ros_ws/devel/lib/libqualisys_cpp_sdk.so
-/home/ottelab/crazyswarm/ros_ws/devel/lib/libmotioncapture/RigidBodyStreaming: externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk/CMakeFiles/RigidBodyStreaming.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ottelab/crazyswarm/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/ottelab/crazyswarm/ros_ws/devel/lib/libmotioncapture/RigidBodyStreaming"
-	cd /home/ottelab/crazyswarm/ros_ws/build/externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RigidBodyStreaming.dir/link.txt --verbose=$(VERBOSE)
+/home/ottelab/swarm/ros_ws/devel/lib/libmotioncapture/RigidBodyStreaming: externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk/CMakeFiles/RigidBodyStreaming.dir/RigidBodyStreaming/RigidBodyStreaming.cpp.o
+/home/ottelab/swarm/ros_ws/devel/lib/libmotioncapture/RigidBodyStreaming: externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk/CMakeFiles/RigidBodyStreaming.dir/build.make
+/home/ottelab/swarm/ros_ws/devel/lib/libmotioncapture/RigidBodyStreaming: /home/ottelab/swarm/ros_ws/devel/lib/libqualisys_cpp_sdk.so
+/home/ottelab/swarm/ros_ws/devel/lib/libmotioncapture/RigidBodyStreaming: externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk/CMakeFiles/RigidBodyStreaming.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ottelab/swarm/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/ottelab/swarm/ros_ws/devel/lib/libmotioncapture/RigidBodyStreaming"
+	cd /home/ottelab/swarm/ros_ws/build/externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RigidBodyStreaming.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk/CMakeFiles/RigidBodyStreaming.dir/build: /home/ottelab/crazyswarm/ros_ws/devel/lib/libmotioncapture/RigidBodyStreaming
+externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk/CMakeFiles/RigidBodyStreaming.dir/build: /home/ottelab/swarm/ros_ws/devel/lib/libmotioncapture/RigidBodyStreaming
 
 .PHONY : externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk/CMakeFiles/RigidBodyStreaming.dir/build
 
@@ -105,10 +105,10 @@ externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk/CMak
 .PHONY : externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk/CMakeFiles/RigidBodyStreaming.dir/requires
 
 externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk/CMakeFiles/RigidBodyStreaming.dir/clean:
-	cd /home/ottelab/crazyswarm/ros_ws/build/externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk && $(CMAKE_COMMAND) -P CMakeFiles/RigidBodyStreaming.dir/cmake_clean.cmake
+	cd /home/ottelab/swarm/ros_ws/build/externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk && $(CMAKE_COMMAND) -P CMakeFiles/RigidBodyStreaming.dir/cmake_clean.cmake
 .PHONY : externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk/CMakeFiles/RigidBodyStreaming.dir/clean
 
 externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk/CMakeFiles/RigidBodyStreaming.dir/depend:
-	cd /home/ottelab/crazyswarm/ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ottelab/crazyswarm/ros_ws/src /home/ottelab/crazyswarm/ros_ws/src/externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk /home/ottelab/crazyswarm/ros_ws/build /home/ottelab/crazyswarm/ros_ws/build/externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk /home/ottelab/crazyswarm/ros_ws/build/externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk/CMakeFiles/RigidBodyStreaming.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ottelab/swarm/ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ottelab/swarm/ros_ws/src /home/ottelab/swarm/ros_ws/src/externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk /home/ottelab/swarm/ros_ws/build /home/ottelab/swarm/ros_ws/build/externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk /home/ottelab/swarm/ros_ws/build/externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk/CMakeFiles/RigidBodyStreaming.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : externalDependencies/libmotioncapture/externalDependencies/qualisys_cpp_sdk/CMakeFiles/RigidBodyStreaming.dir/depend
 

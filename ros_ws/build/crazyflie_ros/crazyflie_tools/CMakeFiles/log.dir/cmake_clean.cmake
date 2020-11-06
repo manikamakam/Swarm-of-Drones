@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/log.dir/src/log.cpp.o"
-  "/home/ottelab/crazyswarm/ros_ws/devel/lib/crazyflie_tools/log.pdb"
-  "/home/ottelab/crazyswarm/ros_ws/devel/lib/crazyflie_tools/log"
+  "/home/ottelab/swarm/ros_ws/devel/lib/crazyflie_tools/log.pdb"
+  "/home/ottelab/swarm/ros_ws/devel/lib/crazyflie_tools/log"
 )
 
 # Per-language clean rules from dependency scanning.

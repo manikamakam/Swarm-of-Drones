@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/crazyswarm_teleop.dir/src/crazyswarm_teleop.cpp.o"
-  "/home/ottelab/crazyswarm/ros_ws/devel/lib/crazyswarm/crazyswarm_teleop.pdb"
-  "/home/ottelab/crazyswarm/ros_ws/devel/lib/crazyswarm/crazyswarm_teleop"
+  "/home/ottelab/swarm/ros_ws/devel/lib/crazyswarm/crazyswarm_teleop.pdb"
+  "/home/ottelab/swarm/ros_ws/devel/lib/crazyswarm/crazyswarm_teleop"
 )
 
 # Per-language clean rules from dependency scanning.

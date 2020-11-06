@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/listLogVariables.dir/src/listLogVariables.cpp.o"
-  "/home/ottelab/crazyswarm/ros_ws/devel/lib/crazyflie_tools/listLogVariables.pdb"
-  "/home/ottelab/crazyswarm/ros_ws/devel/lib/crazyflie_tools/listLogVariables"
+  "/home/ottelab/swarm/ros_ws/devel/lib/crazyflie_tools/listLogVariables.pdb"
+  "/home/ottelab/swarm/ros_ws/devel/lib/crazyflie_tools/listLogVariables"
 )
 
 # Per-language clean rules from dependency scanning.

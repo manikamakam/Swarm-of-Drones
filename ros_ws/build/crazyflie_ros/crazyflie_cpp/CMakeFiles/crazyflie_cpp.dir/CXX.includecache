@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/include/crazyflie_cpp/Crazyflie.h
+/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/include/crazyflie_cpp/Crazyflie.h
 cstring
 -
 sstream
@@ -16,9 +16,9 @@ functional
 math.h
 -
 Crazyradio.h
-/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/include/crazyflie_cpp/Crazyradio.h
+/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/include/crazyflie_cpp/Crazyradio.h
 crtp.h
-/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/include/crazyflie_cpp/crtp.h
+/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/include/crazyflie_cpp/crtp.h
 list
 -
 set
@@ -28,7 +28,7 @@ map
 chrono
 -
 
-/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/include/crazyflie_cpp/CrazyflieUSB.h
+/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/include/crazyflie_cpp/CrazyflieUSB.h
 stdint.h
 -
 vector
@@ -36,51 +36,51 @@ vector
 string
 -
 ITransport.h
-/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/include/crazyflie_cpp/ITransport.h
+/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/include/crazyflie_cpp/ITransport.h
 USBDevice.h
-/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/include/crazyflie_cpp/USBDevice.h
+/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/include/crazyflie_cpp/USBDevice.h
 
-/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/include/crazyflie_cpp/Crazyradio.h
+/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/include/crazyflie_cpp/Crazyradio.h
 stdint.h
 -
 vector
 -
 ITransport.h
-/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/include/crazyflie_cpp/ITransport.h
+/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/include/crazyflie_cpp/ITransport.h
 USBDevice.h
-/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/include/crazyflie_cpp/USBDevice.h
+/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/include/crazyflie_cpp/USBDevice.h
 
-/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/include/crazyflie_cpp/ITransport.h
+/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/include/crazyflie_cpp/ITransport.h
 stdint.h
 -
 fstream
 -
 
-/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/include/crazyflie_cpp/USBDevice.h
+/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/include/crazyflie_cpp/USBDevice.h
 stdint.h
 -
 
-/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/include/crazyflie_cpp/crtp.h
+/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/include/crazyflie_cpp/crtp.h
 Crazyradio.h
-/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/include/crazyflie_cpp/Crazyradio.h
+/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/include/crazyflie_cpp/Crazyradio.h
 cstdint
 -
 
-/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/Crazyflie.cpp
+/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/Crazyflie.cpp
 mutex
 -
 Crazyflie.h
-/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/Crazyflie.h
+/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/Crazyflie.h
 crtp.h
-/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/crtp.h
+/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/crtp.h
 crtpBootloader.h
-/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/crtpBootloader.h
+/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/crtpBootloader.h
 crtpNRF51.h
-/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/crtpNRF51.h
+/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/crtpNRF51.h
 Crazyradio.h
-/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/Crazyradio.h
+/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/Crazyradio.h
 CrazyflieUSB.h
-/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/CrazyflieUSB.h
+/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/CrazyflieUSB.h
 fstream
 -
 cstring
@@ -94,9 +94,9 @@ cmath
 inttypes.h
 -
 
-/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/CrazyflieUSB.cpp
+/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/CrazyflieUSB.cpp
 CrazyflieUSB.h
-/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/CrazyflieUSB.h
+/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/CrazyflieUSB.h
 sstream
 -
 stdexcept
@@ -104,9 +104,9 @@ stdexcept
 libusb-1.0/libusb.h
 -
 
-/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/Crazyradio.cpp
+/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/Crazyradio.cpp
 Crazyradio.h
-/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/Crazyradio.h
+/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/Crazyradio.h
 sstream
 -
 stdexcept
@@ -114,13 +114,13 @@ stdexcept
 libusb-1.0/libusb.h
 -
 
-/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/ITransport.cpp
+/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/ITransport.cpp
 ITransport.h
-/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/ITransport.h
+/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/ITransport.h
 
-/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/USBDevice.cpp
+/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/USBDevice.cpp
 USBDevice.h
-/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/USBDevice.h
+/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/USBDevice.h
 sstream
 -
 stdexcept
@@ -128,7 +128,7 @@ stdexcept
 libusb-1.0/libusb.h
 -
 
-/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/crtp.cpp
+/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/crtp.cpp
 stdint.h
 -
 math.h
@@ -136,13 +136,13 @@ math.h
 cstring
 -
 crtp.h
-/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/crtp.h
+/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/crtp.h
 
-/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/crtpBootloader.h
+/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/crtpBootloader.h
 cstdint
 -
 
-/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/crtpNRF51.h
+/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/src/crtpNRF51.h
 cstdint
 -
 

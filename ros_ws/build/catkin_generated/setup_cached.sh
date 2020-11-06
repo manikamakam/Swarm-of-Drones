@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/ottelab/crazyswarm/ros_ws/devel:$CMAKE_PREFIX_PATH"
-export PWD="/home/ottelab/crazyswarm/ros_ws/build"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/ottelab/crazyswarm/ros_ws/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/ottelab/crazyswarm/ros_ws/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/ottelab/swarm/ros_ws/devel:$CMAKE_PREFIX_PATH"
+export PWD="/home/ottelab/swarm/ros_ws/build"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/ottelab/swarm/ros_ws/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/ottelab/swarm/ros_ws/src:$ROS_PACKAGE_PATH"

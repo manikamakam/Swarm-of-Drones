@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/battery.dir/src/battery.cpp.o"
-  "/home/ottelab/crazyswarm/ros_ws/devel/lib/crazyflie_tools/battery.pdb"
-  "/home/ottelab/crazyswarm/ros_ws/devel/lib/crazyflie_tools/battery"
+  "/home/ottelab/swarm/ros_ws/devel/lib/crazyflie_tools/battery.pdb"
+  "/home/ottelab/swarm/ros_ws/devel/lib/crazyflie_tools/battery"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_controller/src/controller.cpp
+/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_controller/src/controller.cpp
 ros/ros.h
 -
 tf/transform_listener.h
@@ -16,9 +16,9 @@ std_srvs/Empty.h
 geometry_msgs/Twist.h
 -
 pid.hpp
-/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_controller/src/pid.hpp
+/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_controller/src/pid.hpp
 
-/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_controller/src/pid.hpp
+/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_controller/src/pid.hpp
 ros/ros.h
 -
 

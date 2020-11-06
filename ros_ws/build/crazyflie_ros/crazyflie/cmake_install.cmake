@@ -1,8 +1,8 @@
-# Install script for directory: /home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie
+# Install script for directory: /home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ottelab/crazyswarm/ros_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ottelab/swarm/ros_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,6 +33,6 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie" TYPE FILE FILES "/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie" TYPE FILE FILES "/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie/package.xml")
 endif()
 

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/quadrotor_teleop.dir/src/quadrotor_teleop.cpp.o"
-  "/home/ottelab/crazyswarm/ros_ws/devel/lib/crazyflie_demo/quadrotor_teleop.pdb"
-  "/home/ottelab/crazyswarm/ros_ws/devel/lib/crazyflie_demo/quadrotor_teleop"
+  "/home/ottelab/swarm/ros_ws/devel/lib/crazyflie_demo/quadrotor_teleop.pdb"
+  "/home/ottelab/swarm/ros_ws/devel/lib/crazyflie_demo/quadrotor_teleop"
 )
 
 # Per-language clean rules from dependency scanning.

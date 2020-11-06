@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/downloadUSDLogfile.dir/src/downloadUSDLogfile.cpp.o"
-  "/home/ottelab/crazyswarm/ros_ws/devel/lib/crazyflie_tools/downloadUSDLogfile.pdb"
-  "/home/ottelab/crazyswarm/ros_ws/devel/lib/crazyflie_tools/downloadUSDLogfile"
+  "/home/ottelab/swarm/ros_ws/devel/lib/crazyflie_tools/downloadUSDLogfile.pdb"
+  "/home/ottelab/swarm/ros_ws/devel/lib/crazyflie_tools/downloadUSDLogfile"
 )
 
 # Per-language clean rules from dependency scanning.

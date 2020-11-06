@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/RigidBodyStreaming.dir/RigidBodyStreaming/RigidBodyStreaming.cpp.o"
-  "/home/ottelab/crazyswarm/ros_ws/devel/lib/libmotioncapture/RigidBodyStreaming.pdb"
-  "/home/ottelab/crazyswarm/ros_ws/devel/lib/libmotioncapture/RigidBodyStreaming"
+  "/home/ottelab/swarm/ros_ws/devel/lib/libmotioncapture/RigidBodyStreaming.pdb"
+  "/home/ottelab/swarm/ros_ws/devel/lib/libmotioncapture/RigidBodyStreaming"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -7,8 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ViconDataStreamSDK_CPP.dir/Vicon/CrossMarket/DataStream/ViconCGStreamClient/CGStreamReaderWriter.cpp.o"
   "CMakeFiles/ViconDataStreamSDK_CPP.dir/Vicon/CrossMarket/DataStream/ViconCGStreamClient/ViconCGStreamBayer.cpp.o"
   "CMakeFiles/ViconDataStreamSDK_CPP.dir/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP/DataStreamClient.cpp.o"
-  "/home/ottelab/crazyswarm/ros_ws/devel/lib/libViconDataStreamSDK_CPP.pdb"
-  "/home/ottelab/crazyswarm/ros_ws/devel/lib/libViconDataStreamSDK_CPP.so"
+  "/home/ottelab/swarm/ros_ws/devel/lib/libViconDataStreamSDK_CPP.pdb"
+  "/home/ottelab/swarm/ros_ws/devel/lib/libViconDataStreamSDK_CPP.so"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/comCheck.dir/src/comCheck.cpp.o"
-  "/home/ottelab/crazyswarm/ros_ws/devel/lib/crazyflie_tools/comCheck.pdb"
-  "/home/ottelab/crazyswarm/ros_ws/devel/lib/crazyflie_tools/comCheck"
+  "/home/ottelab/swarm/ros_ws/devel/lib/crazyflie_tools/comCheck.pdb"
+  "/home/ottelab/swarm/ros_ws/devel/lib/crazyflie_tools/comCheck"
 )
 
 # Per-language clean rules from dependency scanning.

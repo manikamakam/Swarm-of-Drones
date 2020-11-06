@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/reboot.dir/src/reboot.cpp.o"
-  "/home/ottelab/crazyswarm/ros_ws/devel/lib/crazyflie_tools/reboot.pdb"
-  "/home/ottelab/crazyswarm/ros_ws/devel/lib/crazyflie_tools/reboot"
+  "/home/ottelab/swarm/ros_ws/devel/lib/crazyflie_tools/reboot.pdb"
+  "/home/ottelab/swarm/ros_ws/devel/lib/crazyflie_tools/reboot"
 )
 
 # Per-language clean rules from dependency scanning.

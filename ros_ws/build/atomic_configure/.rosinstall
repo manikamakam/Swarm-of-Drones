@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/ottelab/crazyswarm/ros_ws/devel/setup.sh
+    local-name: /home/ottelab/swarm/ros_ws/devel/setup.sh

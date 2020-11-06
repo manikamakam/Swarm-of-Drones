@@ -3,8 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/qualisys_cpp_sdk.dir/Network.cpp.o"
   "CMakeFiles/qualisys_cpp_sdk.dir/RTPacket.cpp.o"
   "CMakeFiles/qualisys_cpp_sdk.dir/RTProtocol.cpp.o"
-  "/home/ottelab/crazyswarm/ros_ws/devel/lib/libqualisys_cpp_sdk.pdb"
-  "/home/ottelab/crazyswarm/ros_ws/devel/lib/libqualisys_cpp_sdk.so"
+  "/home/ottelab/swarm/ros_ws/devel/lib/libqualisys_cpp_sdk.pdb"
+  "/home/ottelab/swarm/ros_ws/devel/lib/libqualisys_cpp_sdk.so"
 )
 
 # Per-language clean rules from dependency scanning.

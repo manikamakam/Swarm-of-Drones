@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/libobjecttracker.dir/src/object_tracker.cpp.o"
-  "/home/ottelab/crazyswarm/ros_ws/devel/lib/liblibobjecttracker.pdb"
-  "/home/ottelab/crazyswarm/ros_ws/devel/lib/liblibobjecttracker.so"
+  "/home/ottelab/swarm/ros_ws/devel/lib/liblibobjecttracker.pdb"
+  "/home/ottelab/swarm/ros_ws/devel/lib/liblibobjecttracker.so"
 )
 
 # Per-language clean rules from dependency scanning.

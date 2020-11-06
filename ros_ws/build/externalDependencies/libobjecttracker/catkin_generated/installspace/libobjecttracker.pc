@@ -1,4 +1,4 @@
-prefix=/home/ottelab/crazyswarm/ros_ws/install
+prefix=/home/ottelab/swarm/ros_ws/install
 
 Name: libobjecttracker
 Description: Description of libobjecttracker

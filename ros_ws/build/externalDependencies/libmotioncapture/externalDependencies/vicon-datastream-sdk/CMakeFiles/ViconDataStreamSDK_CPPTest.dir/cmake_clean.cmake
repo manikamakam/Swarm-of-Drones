@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ViconDataStreamSDK_CPPTest.dir/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPPTest/ViconDataStreamSDK_CPPTest.cpp.o"
-  "/home/ottelab/crazyswarm/ros_ws/devel/lib/libmotioncapture/ViconDataStreamSDK_CPPTest.pdb"
-  "/home/ottelab/crazyswarm/ros_ws/devel/lib/libmotioncapture/ViconDataStreamSDK_CPPTest"
+  "/home/ottelab/swarm/ros_ws/devel/lib/libmotioncapture/ViconDataStreamSDK_CPPTest.pdb"
+  "/home/ottelab/swarm/ros_ws/devel/lib/libmotioncapture/ViconDataStreamSDK_CPPTest"
 )
 
 # Per-language clean rules from dependency scanning.

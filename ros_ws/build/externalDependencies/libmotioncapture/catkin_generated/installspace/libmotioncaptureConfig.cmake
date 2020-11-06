@@ -67,14 +67,14 @@ set(libmotioncapture_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(libmotioncapture_SOURCE_PREFIX /home/ottelab/crazyswarm/ros_ws/src/externalDependencies/libmotioncapture)
-  set(libmotioncapture_DEVEL_PREFIX /home/ottelab/crazyswarm/ros_ws/devel)
+  set(libmotioncapture_SOURCE_PREFIX /home/ottelab/swarm/ros_ws/src/externalDependencies/libmotioncapture)
+  set(libmotioncapture_DEVEL_PREFIX /home/ottelab/swarm/ros_ws/devel)
   set(libmotioncapture_INSTALL_PREFIX "")
   set(libmotioncapture_PREFIX ${libmotioncapture_DEVEL_PREFIX})
 else()
   set(libmotioncapture_SOURCE_PREFIX "")
   set(libmotioncapture_DEVEL_PREFIX "")
-  set(libmotioncapture_INSTALL_PREFIX /home/ottelab/crazyswarm/ros_ws/install)
+  set(libmotioncapture_INSTALL_PREFIX /home/ottelab/swarm/ros_ws/install)
   set(libmotioncapture_PREFIX ${libmotioncapture_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ottelab/crazyswarm/ros_ws/install/lib;/home/ottelab/test_ws/devel/lib;/home/ottelab/vicon_packages/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/ottelab/swarm/ros_ws/install/lib;/home/ottelab/crazyswarm/ros_ws/devel/lib;/home/ottelab/test_ws/devel/lib;/home/ottelab/vicon_packages/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

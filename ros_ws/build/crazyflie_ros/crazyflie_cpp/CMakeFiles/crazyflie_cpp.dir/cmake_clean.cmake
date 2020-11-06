@@ -5,8 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/crazyflie_cpp.dir/src/Crazyflie.cpp.o"
   "CMakeFiles/crazyflie_cpp.dir/src/crtp.cpp.o"
   "CMakeFiles/crazyflie_cpp.dir/src/ITransport.cpp.o"
-  "/home/ottelab/crazyswarm/ros_ws/devel/lib/libcrazyflie_cpp.pdb"
-  "/home/ottelab/crazyswarm/ros_ws/devel/lib/libcrazyflie_cpp.so"
+  "/home/ottelab/swarm/ros_ws/devel/lib/libcrazyflie_cpp.pdb"
+  "/home/ottelab/swarm/ros_ws/devel/lib/libcrazyflie_cpp.so"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,4 +1,4 @@
-prefix=/home/ottelab/crazyswarm/ros_ws/devel
+prefix=/home/ottelab/swarm/ros_ws/devel
 
 Name: crazyswarm
 Description: Description of crazyswarm

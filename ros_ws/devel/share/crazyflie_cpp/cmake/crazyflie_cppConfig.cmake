@@ -67,14 +67,14 @@ set(crazyflie_cpp_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(crazyflie_cpp_SOURCE_PREFIX /home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp)
-  set(crazyflie_cpp_DEVEL_PREFIX /home/ottelab/crazyswarm/ros_ws/devel)
+  set(crazyflie_cpp_SOURCE_PREFIX /home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_cpp)
+  set(crazyflie_cpp_DEVEL_PREFIX /home/ottelab/swarm/ros_ws/devel)
   set(crazyflie_cpp_INSTALL_PREFIX "")
   set(crazyflie_cpp_PREFIX ${crazyflie_cpp_DEVEL_PREFIX})
 else()
   set(crazyflie_cpp_SOURCE_PREFIX "")
   set(crazyflie_cpp_DEVEL_PREFIX "")
-  set(crazyflie_cpp_INSTALL_PREFIX /home/ottelab/crazyswarm/ros_ws/install)
+  set(crazyflie_cpp_INSTALL_PREFIX /home/ottelab/swarm/ros_ws/install)
   set(crazyflie_cpp_PREFIX ${crazyflie_cpp_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(crazyflie_cpp_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/include " STREQUAL " ")
+if(NOT "/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/include " STREQUAL " ")
   set(crazyflie_cpp_INCLUDE_DIRS "")
-  set(_include_dirs "/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/include")
+  set(_include_dirs "/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/include")
   if(NOT "https://github.com/whoenig/crazyflie_ros/issues " STREQUAL " ")
     set(_report "Check the issue tracker 'https://github.com/whoenig/crazyflie_ros/issues' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://ros.org/wiki/crazyflie " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/include 
         message(FATAL_ERROR "Project 'crazyflie_cpp' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'crazyflie_cpp' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'crazyflie_cpp' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_cpp/${idir}'.  ${_report}")
     endif()
     _list_append_unique(crazyflie_cpp_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ottelab/crazyswarm/ros_ws/devel/lib;/home/ottelab/test_ws/devel/lib;/home/ottelab/vicon_packages/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/ottelab/swarm/ros_ws/devel/lib;/home/ottelab/crazyswarm/ros_ws/devel/lib;/home/ottelab/test_ws/devel/lib;/home/ottelab/vicon_packages/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

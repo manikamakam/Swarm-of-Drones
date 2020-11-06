@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/ottelab/crazyswarm/ros_ws/src/externalDependencies/libmotioncapture/externalDependencies/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP/DataStreamClient.h
+/home/ottelab/swarm/ros_ws/src/externalDependencies/libmotioncapture/externalDependencies/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP/DataStreamClient.h
 IDataStreamClientBase.h
-/home/ottelab/crazyswarm/ros_ws/src/externalDependencies/libmotioncapture/externalDependencies/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP/IDataStreamClientBase.h
+/home/ottelab/swarm/ros_ws/src/externalDependencies/libmotioncapture/externalDependencies/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP/IDataStreamClientBase.h
 string
 -
 vector
@@ -16,15 +16,15 @@ vector
 memory
 -
 
-/home/ottelab/crazyswarm/ros_ws/src/externalDependencies/libmotioncapture/externalDependencies/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP/IDataStreamClientBase.h
+/home/ottelab/swarm/ros_ws/src/externalDependencies/libmotioncapture/externalDependencies/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP/IDataStreamClientBase.h
 string
 -
 vector
 -
 
-/home/ottelab/crazyswarm/ros_ws/src/externalDependencies/libmotioncapture/externalDependencies/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPPTest/ViconDataStreamSDK_CPPTest.cpp
+/home/ottelab/swarm/ros_ws/src/externalDependencies/libmotioncapture/externalDependencies/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPPTest/ViconDataStreamSDK_CPPTest.cpp
 DataStreamClient.h
-/home/ottelab/crazyswarm/ros_ws/src/externalDependencies/libmotioncapture/externalDependencies/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPPTest/DataStreamClient.h
+/home/ottelab/swarm/ros_ws/src/externalDependencies/libmotioncapture/externalDependencies/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPPTest/DataStreamClient.h
 iostream
 -
 fstream

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ottelab/crazyswarm/ros_ws/src
+CMAKE_SOURCE_DIR = /home/ottelab/swarm/ros_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ottelab/crazyswarm/ros_ws/build
+CMAKE_BINARY_DIR = /home/ottelab/swarm/ros_ws/build
 
 # Include any dependencies generated for this target.
 include crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/depend.make
@@ -58,17 +58,17 @@ include crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/progress.make
 include crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/flags.make
 
 crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/src/log.cpp.o: crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/flags.make
-crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/src/log.cpp.o: /home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_tools/src/log.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ottelab/crazyswarm/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/src/log.cpp.o"
-	cd /home/ottelab/crazyswarm/ros_ws/build/crazyflie_ros/crazyflie_tools && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/log.dir/src/log.cpp.o -c /home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_tools/src/log.cpp
+crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/src/log.cpp.o: /home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_tools/src/log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ottelab/swarm/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/src/log.cpp.o"
+	cd /home/ottelab/swarm/ros_ws/build/crazyflie_ros/crazyflie_tools && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/log.dir/src/log.cpp.o -c /home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_tools/src/log.cpp
 
 crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/src/log.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/log.dir/src/log.cpp.i"
-	cd /home/ottelab/crazyswarm/ros_ws/build/crazyflie_ros/crazyflie_tools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_tools/src/log.cpp > CMakeFiles/log.dir/src/log.cpp.i
+	cd /home/ottelab/swarm/ros_ws/build/crazyflie_ros/crazyflie_tools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_tools/src/log.cpp > CMakeFiles/log.dir/src/log.cpp.i
 
 crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/src/log.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/log.dir/src/log.cpp.s"
-	cd /home/ottelab/crazyswarm/ros_ws/build/crazyflie_ros/crazyflie_tools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_tools/src/log.cpp -o CMakeFiles/log.dir/src/log.cpp.s
+	cd /home/ottelab/swarm/ros_ws/build/crazyflie_ros/crazyflie_tools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_tools/src/log.cpp -o CMakeFiles/log.dir/src/log.cpp.s
 
 crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/src/log.cpp.o.requires:
 
@@ -88,17 +88,17 @@ log_OBJECTS = \
 # External object files for target log
 log_EXTERNAL_OBJECTS =
 
-/home/ottelab/crazyswarm/ros_ws/devel/lib/crazyflie_tools/log: crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/src/log.cpp.o
-/home/ottelab/crazyswarm/ros_ws/devel/lib/crazyflie_tools/log: crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/build.make
-/home/ottelab/crazyswarm/ros_ws/devel/lib/crazyflie_tools/log: /home/ottelab/crazyswarm/ros_ws/devel/lib/libcrazyflie_cpp.so
-/home/ottelab/crazyswarm/ros_ws/devel/lib/crazyflie_tools/log: /usr/lib/i386-linux-gnu/libboost_program_options.so
-/home/ottelab/crazyswarm/ros_ws/devel/lib/crazyflie_tools/log: /usr/lib/i386-linux-gnu/libusb-1.0.so
-/home/ottelab/crazyswarm/ros_ws/devel/lib/crazyflie_tools/log: crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ottelab/crazyswarm/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/ottelab/crazyswarm/ros_ws/devel/lib/crazyflie_tools/log"
-	cd /home/ottelab/crazyswarm/ros_ws/build/crazyflie_ros/crazyflie_tools && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/log.dir/link.txt --verbose=$(VERBOSE)
+/home/ottelab/swarm/ros_ws/devel/lib/crazyflie_tools/log: crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/src/log.cpp.o
+/home/ottelab/swarm/ros_ws/devel/lib/crazyflie_tools/log: crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/build.make
+/home/ottelab/swarm/ros_ws/devel/lib/crazyflie_tools/log: /home/ottelab/swarm/ros_ws/devel/lib/libcrazyflie_cpp.so
+/home/ottelab/swarm/ros_ws/devel/lib/crazyflie_tools/log: /usr/lib/i386-linux-gnu/libboost_program_options.so
+/home/ottelab/swarm/ros_ws/devel/lib/crazyflie_tools/log: /usr/lib/i386-linux-gnu/libusb-1.0.so
+/home/ottelab/swarm/ros_ws/devel/lib/crazyflie_tools/log: crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ottelab/swarm/ros_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/ottelab/swarm/ros_ws/devel/lib/crazyflie_tools/log"
+	cd /home/ottelab/swarm/ros_ws/build/crazyflie_ros/crazyflie_tools && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/log.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/build: /home/ottelab/crazyswarm/ros_ws/devel/lib/crazyflie_tools/log
+crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/build: /home/ottelab/swarm/ros_ws/devel/lib/crazyflie_tools/log
 
 .PHONY : crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/build
 
@@ -107,10 +107,10 @@ crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/requires: crazyflie_ros/crazyfl
 .PHONY : crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/requires
 
 crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/clean:
-	cd /home/ottelab/crazyswarm/ros_ws/build/crazyflie_ros/crazyflie_tools && $(CMAKE_COMMAND) -P CMakeFiles/log.dir/cmake_clean.cmake
+	cd /home/ottelab/swarm/ros_ws/build/crazyflie_ros/crazyflie_tools && $(CMAKE_COMMAND) -P CMakeFiles/log.dir/cmake_clean.cmake
 .PHONY : crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/clean
 
 crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/depend:
-	cd /home/ottelab/crazyswarm/ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ottelab/crazyswarm/ros_ws/src /home/ottelab/crazyswarm/ros_ws/src/crazyflie_ros/crazyflie_tools /home/ottelab/crazyswarm/ros_ws/build /home/ottelab/crazyswarm/ros_ws/build/crazyflie_ros/crazyflie_tools /home/ottelab/crazyswarm/ros_ws/build/crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ottelab/swarm/ros_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ottelab/swarm/ros_ws/src /home/ottelab/swarm/ros_ws/src/crazyflie_ros/crazyflie_tools /home/ottelab/swarm/ros_ws/build /home/ottelab/swarm/ros_ws/build/crazyflie_ros/crazyflie_tools /home/ottelab/swarm/ros_ws/build/crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/depend
 

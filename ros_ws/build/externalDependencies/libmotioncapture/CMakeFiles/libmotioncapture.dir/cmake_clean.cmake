@@ -4,8 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/libmotioncapture.dir/src/vicon.cpp.o"
   "CMakeFiles/libmotioncapture.dir/src/optitrack.cpp.o"
   "CMakeFiles/libmotioncapture.dir/src/qualisys.cpp.o"
-  "/home/ottelab/crazyswarm/ros_ws/devel/lib/liblibmotioncapture.pdb"
-  "/home/ottelab/crazyswarm/ros_ws/devel/lib/liblibmotioncapture.so"
+  "/home/ottelab/swarm/ros_ws/devel/lib/liblibmotioncapture.pdb"
+  "/home/ottelab/swarm/ros_ws/devel/lib/liblibmotioncapture.so"
 )
 
 # Per-language clean rules from dependency scanning.

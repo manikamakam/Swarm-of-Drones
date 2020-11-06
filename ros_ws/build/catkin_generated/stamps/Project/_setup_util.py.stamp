@@ -270,7 +270,7 @@ if __name__ == '__main__':
 
         if not args.local:
             # environment at generation time
-            CMAKE_PREFIX_PATH = '/home/ottelab/test_ws/devel;/home/ottelab/vicon_packages/devel;/opt/ros/kinetic'.split(';')
+            CMAKE_PREFIX_PATH = '/home/ottelab/crazyswarm/ros_ws/devel;/home/ottelab/test_ws/devel;/home/ottelab/vicon_packages/devel;/opt/ros/kinetic'.split(';')
         else:
             # don't consider any other prefix path than this one
             CMAKE_PREFIX_PATH = []

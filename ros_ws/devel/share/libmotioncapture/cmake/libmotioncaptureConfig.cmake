@@ -67,14 +67,14 @@ set(libmotioncapture_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(libmotioncapture_SOURCE_PREFIX /home/ottelab/crazyswarm/ros_ws/src/externalDependencies/libmotioncapture)
-  set(libmotioncapture_DEVEL_PREFIX /home/ottelab/crazyswarm/ros_ws/devel)
+  set(libmotioncapture_SOURCE_PREFIX /home/ottelab/swarm/ros_ws/src/externalDependencies/libmotioncapture)
+  set(libmotioncapture_DEVEL_PREFIX /home/ottelab/swarm/ros_ws/devel)
   set(libmotioncapture_INSTALL_PREFIX "")
   set(libmotioncapture_PREFIX ${libmotioncapture_DEVEL_PREFIX})
 else()
   set(libmotioncapture_SOURCE_PREFIX "")
   set(libmotioncapture_DEVEL_PREFIX "")
-  set(libmotioncapture_INSTALL_PREFIX /home/ottelab/crazyswarm/ros_ws/install)
+  set(libmotioncapture_INSTALL_PREFIX /home/ottelab/swarm/ros_ws/install)
   set(libmotioncapture_PREFIX ${libmotioncapture_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(libmotioncapture_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/ottelab/crazyswarm/ros_ws/src/externalDependencies/libmotioncapture/include " STREQUAL " ")
+if(NOT "/home/ottelab/swarm/ros_ws/src/externalDependencies/libmotioncapture/include " STREQUAL " ")
   set(libmotioncapture_INCLUDE_DIRS "")
-  set(_include_dirs "/home/ottelab/crazyswarm/ros_ws/src/externalDependencies/libmotioncapture/include")
+  set(_include_dirs "/home/ottelab/swarm/ros_ws/src/externalDependencies/libmotioncapture/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/ottelab/crazyswarm/ros_ws/src/externalDependencies/libmotioncaptur
         message(FATAL_ERROR "Project 'libmotioncapture' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'libmotioncapture' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/ottelab/crazyswarm/ros_ws/src/externalDependencies/libmotioncapture/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'libmotioncapture' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/ottelab/swarm/ros_ws/src/externalDependencies/libmotioncapture/${idir}'.  ${_report}")
     endif()
     _list_append_unique(libmotioncapture_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ottelab/crazyswarm/ros_ws/devel/lib;/home/ottelab/test_ws/devel/lib;/home/ottelab/vicon_packages/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/ottelab/swarm/ros_ws/devel/lib;/home/ottelab/crazyswarm/ros_ws/devel/lib;/home/ottelab/test_ws/devel/lib;/home/ottelab/vicon_packages/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
