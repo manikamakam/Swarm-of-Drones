@@ -1,8 +1,0 @@
-prefix=/home/ottelab/swarm/ros_ws/devel
-
-Name: libmotioncapture
-Description: Description of libmotioncapture
-Version: 0.0.1
-Cflags: -I/home/ottelab/swarm/ros_ws/src/externalDependencies/libmotioncapture/include
-Libs: -L${prefix}/lib -llibmotioncapture
-Requires: 
